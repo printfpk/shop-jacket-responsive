@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255,);
+}
+#nav{
+  height: 100px;
+   width: 100%;
+   /*background-color: red;*/
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 30px;
+   padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /*background-color: blueviolet;*/
+    padding: 19px 80px;
+}
+#center h1{
+   /*font-size: 65px;*/
+   font-size: 4.1vw;
+   font-weight: 500;
+   /*line-height: 75px;*/
+   line-height: 4.4vw;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#center-in{
+    height: 150px;
+    /*background-color: brown;*/
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    /*font-size: 18px;*/
+    font-size: 1.15vw;
+    font-weight: 600;
+    /*line-height: 2;*/
+    line-height: 1.8vw;
+}
+#right{
+    width: 22%;
+}
+.elem{
+    /*background-color: blue;*/
+    /*margin: 1px;*/
+    padding: 15px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem:hover i{
+    opacity: 1;
+}
+#bottom{
+    height: 33%;
+    width: 100%;
+    /*background-color: rosybrown;*/
+    background-image: url(https://images.pexels.com/photos/21345902/pexels-photo-21345902/free-photo-of-brunette-woman-in-jacket-crouching-in-studio.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}   
+
+@media (max-width:600px){
+    #nav{
+        height: 60px;
+         gap: 20px;
+         padding: 0 20;
+    }
+     
+    #nav h4{
+     font-size: 15px;
+     font-weight: 600;
+     /*display: none;*/
+     
+    }   
+    #nav i{
+     background-color: black;
+     color: white;
+     font-size: 12px;
+     font-weight: 600;
+     padding: 7px;
+     border-radius: 50%;
+    }
+    #center{
+        width: 100%;
+        /*background-color: blueviolet;*/
+        padding: 15px 20px;
+    }
+    #center h1{
+       /*font-size: 65px;*/
+       font-size: 10.8vw;
+       font-weight: 500;
+       /*line-height: 75px;*/
+       line-height: 13vw;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    #center-in{
+        height: 150px;
+        /*background-color: brown;*/
+        width: 100%;
+        margin-top: 22px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #center-in p{
+        /*font-size: 18px;*/
+        font-size: 3.3vw;
+        font-weight: 600;
+        /*line-height: 2;*/
+        line-height: 4.8vw;
+    }
+    #right{
+        width: 100%;
+    }
+    .elem{
+        /*background-color: blue;*/
+        /*margin: 1px;*/
+        padding: 10px 0;
+        border-top: 1.6px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .elem a{
+        color: rgb(45, 45, 45);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .elem i{
+        font-size: 25px;
+        font-weight: 500;
+        opacity: 0;
+        color: #303030;
+    }
+    .elem:hover a{
+        text-decoration: underline;
+    }
+    .elem:hover i{
+        opacity: 1;
+    }
+    #bottom{
+        height: 35%;
+        width: 100%;
+        /*background-color: rosybrown;*/
+        background-image: url(https://images.pexels.com/photos/21345902/pexels-photo-21345902/free-photo-of-brunette-woman-in-jacket-crouching-in-studio.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-size: cover;
+        background-position: center;
+    }   
+    
+
+}   
